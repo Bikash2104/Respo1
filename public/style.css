@@ -1,0 +1,289 @@
+.Section1 {
+    background-image: url(./back3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 20px;
+
+}
+
+.dropdown-menu{
+    animation: .5s slideup;
+   
+   
+}
+@keyframes slideup{
+    from{
+        transform:translateY(10%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+.navbar-nav .nav-item:hover{
+    border-bottom:2px solid rgb(175, 227, 236);
+    border-top:2px solid rgb(175, 227, 236);
+   
+}
+
+.Sec1-heading {
+    font-size: 65px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 100px;
+    color: rgb(70, 54, 216);
+}
+
+.Sec1-para {
+    font-size: 25px;
+    margin-top: 35px;
+    font-family: Arial;
+    padding-left: 200px;
+    color: rgba(4, 34, 168, 0.664);
+}
+
+.Sec1-btns {
+    margin-top: 40px;
+    padding-left: 180px;
+}
+
+.Book-Cleaner {
+    background-color: brown;
+    font-size: 17px;
+    border-radius: 22px;
+    color: white;
+
+    font-weight: bold;
+    margin-right: 50px;
+    padding: 10px 40px;
+
+
+}
+
+.Call-us {
+    background-color: rgba(209, 207, 203, 0.247);
+    color: rgb(221, 226, 231);
+    font-size: 17px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    padding: 10px 40px;
+
+
+}
+
+.Main-heading {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Main-para {
+    text-align: center;
+    color: rgba(138, 141, 145, 0.774);
+    font-size: 25px;
+    display: flex;
+    font-family: Arial;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: space-around;
+
+}
+
+.Cleaning-pics {
+
+    display: flex;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 20px;
+
+}
+
+.Cleaning-pics img {
+    border-radius: 10px;
+}
+
+.Cleaning-pics img:hover {
+    transform: translateY(-10PX);
+    transition: .6s;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 10px;
+
+}
+
+.Demostic-grid {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 60px;
+}
+
+.Commercial-grid {
+    display: flex;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 30px;
+}
+
+@media screen and (max-width:780px) { 
+
+    .dropdown-menu{
+        animation: .5s slideup;
+       
+    }
+    @keyframes slideup{
+        from{
+            transform:translateY(10%);
+        }
+        to{
+            transform: translateY(0%);
+        }
+    }
+
+.navbar-nav .nav-item:hover{
+   background-color: aqua;
+   width: 140px;
+   
+}
+
+  .Section1 {
+        background-size: cover;
+    }
+
+    .Sec1-heading {
+        font-size: 30px;
+        line-height: 35px;
+        padding: 0px;
+    }
+
+    .Sec1-para {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .Sec1-btns {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .Book-Cleaner {
+        margin: 0px;
+        padding: 10px 40px;
+    }
+
+    .Call-us {
+        margin-top: 10px;
+        padding: 10px 40px;
+    }
+
+    .Main-heading {
+        font-size: 26px;
+    }
+
+    .Main-para {
+        font-size: 17px;
+        padding: 0px;
+    }
+
+    .Cleaning-pics {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pic1 img,h2{
+        margin-left: 30px;
+    }
+    .pic2 h2{
+        margin-left: -8px;
+    }
+    .icon-grid{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        margin-top: -60px;
+    }
+    .sec-h2{
+        font-size: 30px;
+    }
+    .icon-3 span{
+        padding-left: 20px !important;
+    }
+    .icon-4 span{
+        padding-left: 40px;
+    }
+    .icon-4 h3{
+        padding-left: 40px;
+    }
+    .icon-1 img{
+        padding-left: 50px;
+
+    }
+    .icon-1 div{
+       padding-left: 40px; 
+    }
+    .Demostic-grid{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .Demostic-grid1 img{
+    margin-top: -90px;
+    width: 380px;
+    height: 380px;
+ margin-left: -70px;
+  
+    }
+    .Demostic-grid2 h5{
+        margin-top: -40px;
+        font-size: 20px !important;
+        text-align: center;
+        line-height: 25px !important;
+        }
+        .Demostic-grid2 {
+          width: 800px;
+        
+         
+        }
+        .Commercial-grid{
+            display: flex;
+            flex-wrap: wrap;  
+        }
+        .book{
+            text-align: center;
+          display: flex;
+          justify-content: center;
+         
+        
+        }
+        .book2{
+            font-size: 15px !important; 
+        }
+
+       .book1{
+       margin-top: -30px;
+      font-size: 15px !important;
+      margin-bottom: 0px; 
+        
+       }
+       .Commercial-grid1{
+        text-align: center;
+       margin-top: -140px;
+       }
+       .Commercial-grid1 h5{
+        font-size: 19px !important;
+       }
+       .Commercial-grid2 img{
+        margin-top: -40px;
+        margin-left: 30px;
+        width: 380px;
+        height: 400px;
+        text-align: center;
+       }
+  
+
+}
